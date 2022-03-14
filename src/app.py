@@ -15,3 +15,9 @@ def greating():
 def sum(a: int, b: int):
     resultado = a + b
     return f"La suma es: {str(resultado)}"
+
+@app.route('/multiply/<int:a>/<int:b>')
+def multiply = (a: int, b: int)
+    result float(a * b)
+    return f"El resultado de la multiplicacion es {str(result)}"
+
